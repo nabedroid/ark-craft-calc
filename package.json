@@ -1,0 +1,23 @@
+{
+  "name": "ark-craft-calc",
+  "version": "1.0.0",
+  "description": "ARK Survival Evolvedのクラフトで必要な素材数を計算する",
+  "main": "index.js",
+  "scripts": {
+    "start": "docker compose up --watch --build",
+    "start:product": "docker compose up",
+    "stop": "docker compose down",
+    "remove": "docker system prune --force --all --volumes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nabedroid/ark-craft-calc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nabedroid/ark-craft-calc/issues"
+  },
+  "homepage": "https://github.com/nabedroid/ark-craft-calc#readme"
+}
